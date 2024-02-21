@@ -1,42 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Justin Chung</title>
-    <link rel="stylesheet" href="style.css">
   </head>
-
   <body>
-    <header>
-    <h1>
-      <b href="index.html">Justin Chung</b><br>
-      <span id="subtitle">Welcome to my personal website</span>
-    </h1>
-    </header>
-
-    <section>
-    <h2>Overview</h2>
-    <p>The goal of this project is to analyze and predict the prices of houses in Melbourne based on multivariate factors.<br>
-    Based on our explorotary analysis of the many variables surrounding housing prices, we will test a model built upon those variables to analyze whether or not they can predict housing prices.</p>
-    <h2>Sources</h2>
-
-    <section id="sources">
-    <li>Visit our GitHub <a href="https://github.com/JustinChungCYT/SDS322E_Final_Project">here</a></li>
-    <li>Download our <a href="https://github.com/JustinChungCYT/SDS322E_Final_Project/raw/main/report.docx">paper</a></li>
-    <li>Want to contact a project member?<br>
-        Find details on our <a href="contacts.html">contacts page</a></li>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Mitchell</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Mitchell<br />a</span> Web Developer
+          </h1>
+          <p class="description">
+            Welcome to my web developer portfolio! I'm Mitchell, a skilled and
+            creative web developer with a passion for creating beautiful,
+            responsive, and user-friendly websites. I've worked on a variety of
+            web projects, ranging from personal blogs to e-commerce platforms.
+          </p>
+          <div class="action__btns">
+            <button class="hire__me">Hire Me</button>
+            <button class="portfolio">Portfolio</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/profile.jpg" alt="profile" />
+        </div>
+      </div>
     </section>
-
-    </section>
-
-  <nav>
-    <ul>
-      <li><a href="https://github.com/JustinChungCYT">GitHub</a></li>
-      <li><a href="https://www.kaggle.com/datasets/anthonypino/melbourne-housing-market">Data References</a></li>
-      <li><a href="https://github.com/JustinChungCYT/SDS322E_Final_Project/raw/main/report.docx">Paper</a></li>
-      <li><a href="contacts.html">Finding us</a></li>
-    </ul>
-  </nav>
-
   </body>
 </html>
