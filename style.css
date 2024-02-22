@@ -93,14 +93,14 @@ body {
 .home-content .btn-box {
   display: flex;
   justify-content: space-between;
-  padding-left: 20%;
+  padding-left: 23%;
   width: 345px;
   height: 50px;
 }
 
 .btn-box a {
   position: relative;
-  margin: 15px;
+  margin: 10px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
