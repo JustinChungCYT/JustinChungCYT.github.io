@@ -1,55 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Justin Chung</title>
-  </head>
-  <body>
-    <nav>
-      <div class="nav__content">
-        <div class="logo"><a href="#">Mitchell</a></div>
-        <label for="check" class="checkbox">
-          <i class="ri-menu-line"></i>
-        </label>
-        <input type="checkbox" name="check" id="check" />
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website | Justin Chung</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header class="header">
+    <a href="#" id="logo">Justin</a>
+
+    <nav class="navbar">
+      <a href="#" class="active">Home</a>
+      <a href="#">About</a>
+      <a href="#" class="active">Portfolio</a>
+      <a href="#">Contact</a>
     </nav>
-    <section class="section">
-      <div class="section__container">
-        <div class="content">
-          <p class="subtitle">HELLO</p>
-          <h1 class="title">
-            I'm <span>Mitchell<br />a</span> Web Developer
-          </h1>
-          <p class="description">
-            Welcome to my web developer portfolio! I'm Mitchell, a skilled and
-            creative web developer with a passion for creating beautiful,
-            responsive, and user-friendly websites. I've worked on a variety of
-            web projects, ranging from personal blogs to e-commerce platforms.
-          </p>
-          <div class="action__btns">
-            <button class="hire__me">Hire Me</button>
-            <button class="portfolio">Portfolio</button>
-          </div>
-        </div>
-        <div class="image">
-          <img src="assets/profile.jpg" alt="profile" />
-        </div>
+  </header>
+
+  <section class="home">
+    <div class="home-content">
+      <h1>Hi, I'm <br>Justin Chung</br></h1>
+      <h3>UT Austin</h3>
+      <p>I'm a student studying Computer Engineering at UT Austin.</p>
+      <div class="btn-box">
+        <a href="https://github.com/JustinChungCYT">GitHub</a>
+        <a href="#">Contact</a>
       </div>
-    </section>
-  </body>
+    </div>
+
+    <div class="home-sci">
+      <a href="#"><i class='bx bxl-instagram-alt'></i></i></a>
+      <a href="#"><i class='bx bxl-linkedin' ></i></i></a>
+      <a href="#"><i class='bx bxl-twitter'></i> </a>
+    </div>
+
+  </section>
+
+</body>
 </html>
